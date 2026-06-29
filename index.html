@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Francis Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="aurora"></div>
+
+<div class="background-bubble b1"></div>
+<div class="background-bubble b2"></div>
+<div class="background-bubble b3"></div>
+
+<header>
+
+<nav>
+
+<div class="logo">
+Francis.
+</div>
+
+<ul>
+
+<li><a href="#" onclick="showPage('home')">Home</a></li>
+<li><a href="#" onclick="showPage('about')">About</a></li>
+<li><a href="#" onclick="showPage('skills')">Skills</a></li>
+<li><a href="#" onclick="showPage('contact')">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero page active">
+
+<div class="hero-card">
+
+<div class="hero-left">
+
+<div class="welcome-tag">
+
+<i class="fa-solid fa-hand"></i>
+
+Welcome
+
+</div>
+
+<h1>
+
+Hi, I'm
+
+<span>Francis</span>
+
+</h1>
+
+<h2 class="typing">
+
+<span id="typing-text"></span>
+
+</h2>
+
+<p>
+
+I am a 17 year old student who enjoys learning programming,
+building websites, and creating projects while improving my
+skills every day.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#about" class="btn">
+
+About Me
+
+</a>
+
+<a href="#contact" class="btn-outline">
+
+Contact
+
+</a>
+
+</div>
+
+<div class="hero-social">
+
+<a href="https://www.facebook.com/francis.don.rellon"
+target="_blank"
+class="social-btn facebook">
+
+<i class="fa-brands fa-facebook-f"></i>
+
+<span>Facebook</span>
+
+</a>
+
+<a href="https://www.instagram.com/francis_tuhh/"
+target="_blank"
+class="social-btn instagram">
+
+<i class="fa-brands fa-instagram"></i>
+
+<span>Instagram</span>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-stats">
+
+<div class="stat-card">
+
+<h3>17</h3>
+
+<p>Years Old</p>
+
+</div>
+
+<div class="stat-card">
+
+<h3>HTML</h3>
+
+<p>Learning</p>
+
+</div>
+
+<div class="stat-card">
+
+<h3>CODM</h3>
+
+<p>Player</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="photo-ring">
+
+<img src="image/fran.jpg" alt="Francis">
+
+</div>
+
+<div class="orbit orbit1"></div>
+<div class="orbit orbit2"></div>
+<div class="orbit orbit3"></div>
+
+</div>
+
+</div>
+
+<div class="scroll-down">
+
+<a href="#about">
+
+<i class="fa-solid fa-angles-down"></i>
+
+</a>
+
+</div>
+
+</section>
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about page">
+
+<div class="glass-card">
+
+<div class="about-content">
+
+<div class="about-left">
+
+<h2>About Me</h2>
+
+<div class="line"></div>
+
+<p>
+Hello! My name is <strong>Francis Don Rellon</strong>. I am 17 years old and I enjoy exploring technology and programming.
+</p>
+
+<p>
+One of my favorite hobbies is playing <strong>Call of Duty: Mobile</strong>. It has taught me teamwork, communication, strategy, and quick decision making.
+</p>
+
+<p>
+Besides gaming, I enjoy building websites and learning how software works. I continue practicing HTML, CSS, and JavaScript by creating projects like this portfolio.
+</p>
+
+<div class="interest-grid">
+
+<div class="interest-card">
+<i class="fa-solid fa-code"></i>
+<h3>Programming</h3>
+<p>Learning HTML, CSS & JavaScript</p>
+</div>
+
+<div class="interest-card">
+<i class="fa-solid fa-gamepad"></i>
+<h3>Gaming</h3>
+<p>Call of Duty Mobile</p>
+</div>
+
+<div class="interest-card">
+<i class="fa-solid fa-earth-asia"></i>
+<h3>Web Design</h3>
+<p>Modern responsive websites</p>
+</div>
+
+<div class="interest-card">
+<i class="fa-solid fa-book-open"></i>
+<h3>Learning</h3>
+<p>Always improving my skills</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="about-right">
+
+<div class="video-box">
+
+<video autoplay muted loop playsinline>
+
+<source src="video/codm.mp4" type="video/mp4">
+
+</video>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="skills page">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+
+<i class="fa-brands fa-html5"></i>
+
+<h3>HTML</h3>
+
+<div class="progress">
+
+<div class="progress-fill html"></div>
+
+</div>
+
+<span>75%</span>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-brands fa-css3-alt"></i>
+
+<h3>CSS</h3>
+
+<div class="progress">
+
+<div class="progress-fill css"></div>
+
+</div>
+
+<span>60%</span>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-brands fa-js"></i>
+
+<h3>JavaScript</h3>
+
+<div class="progress">
+
+<div class="progress-fill js"></div>
+
+</div>
+
+<span>25%</span>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-solid fa-lightbulb"></i>
+
+<h3>Problem Solving</h3>
+
+<div class="progress">
+
+<div class="progress-fill problem"></div>
+
+</div>
+
+<span>74%</span>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-solid fa-users"></i>
+
+<h3>Teamwork</h3>
+
+<div class="progress">
+
+<div class="progress-fill team"></div>
+
+</div>
+
+<span>85%</span>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fa-solid fa-book"></i>
+
+<h3>Self Learning</h3>
+
+<div class="progress">
+
+<div class="progress-fill learn"></div>
+
+</div>
+
+<span>49%</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact page">
+
+<h2 class="section-title">Contact Me</h2>
+
+<p class="contact-subtitle">
+Feel free to connect with me through these platforms.
+</p>
+
+<div class="contact-grid">
+
+<a href="tel:+639811697561" class="contact-card">
+
+<i class="fa-solid fa-phone contact-icon"></i>
+
+<div>
+
+<h3>Phone Number</h3>
+
+<p>+63 981 169 7561</p>
+
+</div>
+
+</a>
+
+<a href="https://www.facebook.com/francis.don.rellon"
+
+target="_blank"
+
+class="contact-card">
+
+<i class="fa-brands fa-facebook contact-icon facebook-icon"></i>
+
+<div>
+
+<h3>Facebook</h3>
+
+<p>Visit my profile</p>
+
+</div>
+
+<img src="image/screen.png"
+
+class="preview"
+
+alt="Facebook Preview">
+
+</a>
+
+<a href="https://www.instagram.com/francis_tuhh/"
+
+target="_blank"
+
+class="contact-card">
+
+<i class="fa-brands fa-instagram contact-icon instagram-icon"></i>
+
+<div>
+
+<h3>Instagram</h3>
+
+<p>@francis_tuhh</p>
+
+</div>
+
+<img src="image/sse.png"
+
+class="preview"
+
+alt="Instagram Preview">
+
+</a>
+
+</div>
+
+<footer>
+
+<h3>Francis Don Rellon</h3>
+
+<p>Designed and Developed with HTML, CSS and JavaScript.</p>
+
+<p>© 2026 All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
