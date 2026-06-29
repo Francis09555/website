@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    background:#091e1f;
+    background:#002a7e;
     color:#fff;
     overflow-x:hidden;
     user-select:none;
@@ -29,9 +29,9 @@ AURORA BACKGROUND
     inset:0;
     z-index:-5;
     background:
-    radial-gradient(circle at 20% 20%,rgba(91,124,255,.35),transparent 45%),
-    radial-gradient(circle at 80% 30%,rgba(0,255,220,.22),transparent 45%),
-    radial-gradient(circle at 60% 80%,rgba(17, 103, 216, 0.22),transparent 45%),
+    radial-gradient(circle at 20% 20%,rgba(0,255,255,.12),transparent 45%),
+    radial-gradient(circle at 80% 30%,rgba(0,140,255,.12),transparent 45%),
+    radial-gradient(circle at 60% 80%,rgba(120,0,255,.15),transparent 45%),
     #002a72;
     animation:auroraMove 18s linear infinite alternate;
 }
